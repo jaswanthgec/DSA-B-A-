@@ -21,7 +21,7 @@ def binary_search(arr, target):
     return -1
 
 # Example usage:
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 target = 6
 result = binary_search(arr, target)
 if result != -1:
