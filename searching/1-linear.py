@@ -14,7 +14,7 @@ def linear_search(arr, target):
             return index
     return -1
 
-arr = [3, 5, 2, 4, 9]
+arr = [3, 5, 2, 4, 9, 15]
 target = 4
 result = linear_search(arr, target)
 if result != -1:
