@@ -100,3 +100,61 @@ print("Sorted by age:", [(person.name, person.age) for person in sorted_people])
 - **`key` parameter**: A function that serves as a key for the sort comparison.
 - **`reverse` parameter**: A boolean value. If `True`, the list elements are sorted as if each comparison were reversed.
 - **Stability**: Maintains the relative order of records with equal keys.
+
+## Time and Space Complexity of different sorting algorithms
+
+### 1. Bubble Sort
+- **Time Complexity**:
+  - Best Case: O(n) (when the array is already sorted)
+  - Average Case: O(n^2)
+  - Worst Case: O(n^2)
+- **Space Complexity**: O(1)
+
+### 2. Selection Sort
+- **Time Complexity**:
+  - Best Case: O(n^2)
+  - Average Case: O(n^2)
+  - Worst Case: O(n^2)
+- **Space Complexity**: O(1)
+
+### 3. Insertion Sort
+- **Time Complexity**:
+  - Best Case: O(n) (when the array is already sorted)
+  - Average Case: O(n^2)
+  - Worst Case: O(n^2)
+- **Space Complexity**: O(1)
+
+### 4. Merge Sort
+- **Time Complexity**:
+  - Best Case: O(n log n)
+  - Average Case: O(n log n)
+  - Worst Case: O(n log n)
+- **Space Complexity**: O(n)
+
+### 5. Quick Sort
+- **Time Complexity**:
+  - Best Case: O(n log n)
+  - Average Case: O(n log n)
+  - Worst Case: O(n^2) (when the pivot selection is poor, e.g., always picking the smallest or largest element)
+- **Space Complexity**: O(log n) (due to recursion stack; O(n) in the worst case with poor pivot choices, but this can be mitigated with tail call optimization or using an iterative approach)
+
+### 6. Heap Sort
+- **Time Complexity**:
+  - Best Case: O(n log n)
+  - Average Case: O(n log n)
+  - Worst Case: O(n log n)
+- **Space Complexity**: O(1)
+
+### 7. Radix Sort
+- **Time Complexity**:
+  - Best Case: O(nk)
+  - Average Case: O(nk)
+  - Worst Case: O(nk) (where k is the number of digits in the largest number)
+- **Space Complexity**: O(n + k)
+
+### 8. Counting Sort
+- **Time Complexity**:
+  - Best Case: O(n + k)
+  - Average Case: O(n + k)
+  - Worst Case: O(n + k) (where k is the range of the input values)
+- **Space Complexity**: O(n + k)
