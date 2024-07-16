@@ -120,7 +120,7 @@ These algorithms provide a range of tools for different types of searching probl
 
 **Key Points to Remember:**
 - **Algorithm Suitability:** Match the algorithm to the data structure and specific requirements.
-- **Complexity Awareness:** Understand and consider both time and space complexities.
+- **Complexity Awareness:** Consider time and space complexities.
 - **Handling Edge Cases:** Ensure robust handling of special cases.
 - **Use Advanced Structures:** Opt for advanced data structures when needed for efficiency.
 - **Practical Application:** Balance simplicity and efficiency in real-world scenarios.
